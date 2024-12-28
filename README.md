@@ -1,7 +1,26 @@
-### Run Instructions for Separate Servers
-new line add
+# Passpaper.com
 
-1.  **Backend (Flask)**:
+### Run Instructions for Separate Servers
+
+1.  **ENVIRONMENT (Flask)**:
+
+    -   Open a terminal and navigate to your project directory:
+
+
+        `cd project_path`
+
+    -   CREATE Environment:
+
+
+        `python -m venv .env`
+
+    -   ACTIVATE Environment:
+
+
+        `.\.env\Scripts\activate`
+
+
+2.  **Backend (Flask)**:
 
     -   Open a terminal and navigate to your project directory:
 
@@ -18,7 +37,7 @@ new line add
 
         `python app.py`
 
-2.  **Frontend (Vue.js)**:
+3.  **Frontend (Vue.js)**:
 
     -   Open another terminal and navigate to your project directory:
 
