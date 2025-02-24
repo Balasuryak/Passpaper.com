@@ -6,6 +6,7 @@ import LoginPage from '../views/Login.vue';
 import SignupPage from '../views/Signup.vue';
 import DashboardPage from '../views/Dashboard.vue';
 import CoursePage from '../views/Course.vue';
+import All_main from '../views/All_main.vue';
 import PdfViewer from '../views/PdfViewer.vue';
 import PracticeAssignment from '../views/PracticeAssignment.vue';
 import GradedAssignment from '../views/GradedAssignment.vue';
@@ -15,6 +16,11 @@ const routes = [
   { path: '/', name: 'Home', component: HomePage },
   { path: '/login', name: 'Login', component: LoginPage },
   { path: '/signup', name: 'Signup', component: SignupPage },
+  {
+    path: '/allmain',
+    name: 'All_main',
+    component: All_main
+  },
   {
     path: '/dashboard',
     name: 'Dashboard',

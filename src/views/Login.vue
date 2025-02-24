@@ -53,7 +53,7 @@ export default {
           this.$store.dispatch('login');
 
           // Redirect to dashboard on successful login
-          this.$router.push('/dashboard');
+          this.$router.push('/allmain');
         } else {
           alert(data.message);
         }
