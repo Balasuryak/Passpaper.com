@@ -28,7 +28,7 @@ login_manager = LoginManager()
 login_manager.init_app(app)
 login_manager.login_view = 'login'
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "YOUR_API_KEY"
 API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 def query(prompt):
